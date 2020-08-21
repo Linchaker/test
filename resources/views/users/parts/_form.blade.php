@@ -4,7 +4,7 @@
 </div>
 <div class="form-group">
     <label for="phone">Phone</label>
-    <input type="text" name="phone" class="form-control" required value="{{ old('photo') ?? $user->phone ?? ''}}">
+    <input type="text" name="phone" class="form-control" required value="{{ old('phone') ?? $user->phone ?? ''}}">
 </div>
 <div class="form-group">
     <label for="password">Password</label>
